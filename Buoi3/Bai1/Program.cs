@@ -9,7 +9,8 @@ namespace Bai1
             Graph graph = new Graph();
             graph.ReadData("LIENTHONG.INP");
             graph.WriteData();
-            graph.LienThong("LIENTHONG.OUT");
+            graph.BFS_Visit("LIENTHONG.OUT");
+           // graph.LienThong("LIENTHONG.OUT");
         }
     }
 }
